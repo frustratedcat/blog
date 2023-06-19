@@ -17,22 +17,37 @@ body {
 header {
   height: 100px;
   margin: 10px;
+  margin-bottom: 25px;
 }
 
 .header-banner {
-  position: sticky;
+  /* look up position again */
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 header ul {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
+}
+
+header li {
+  text-align: center;
+  min-width: 120px;
+  margin: 10px;
+  padding: 5px;
+  border: 2px black solid;
+}
+
+header a:link {
+  text-decoration: none;
+  color: white;
 }
 
 main {
