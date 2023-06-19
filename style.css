@@ -10,8 +10,21 @@ html {
 }
 
 body {
-  background-color: black;
+  background-image: linear-gradient(to top left, #cdcdd4 0%, #1f2b7a 100%);
   color: white;
+}
+
+header {
+  height: 100px;
+  margin: 10px;
+}
+
+.header-banner {
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 header ul {
@@ -19,6 +32,7 @@ header ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 main {
