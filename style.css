@@ -10,13 +10,13 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to top left, #cdcdd4 0%, #1f2b7a 100%);
+  background-image: linear-gradient(to top left, #cdcdd4 0%, #285eae 100%);
   color: white;
 }
 
 header {
   height: 100px;
-  margin: 10px;
+  margin: 10px 0;
   margin-bottom: 25px;
 }
 
@@ -35,19 +35,31 @@ header ul {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  background-color: #2847ae;
 }
 
 header li {
   text-align: center;
-  min-width: 120px;
   margin: 10px;
-  padding: 5px;
-  border: 2px black solid;
+  background-color: #2847ae;
 }
 
-header a:link {
-  text-decoration: none;
+header a:link,
+a:visited {
+  min-width: 120px;
+  padding: 10px;
   color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+header a:hover,
+a:active {
+  min-width: 120px;
+  background-color: #f3f3f6;
+  color: #2847ae;
+  font-weight: bold;
 }
 
 main {
