@@ -4,7 +4,23 @@
   box-sizing: inherit;
 }
 
+html {
+  font-size: 80%;
+  box-sizing: border-box;
+}
+
 body {
   background-color: black;
   color: white;
+}
+
+header {
+  display: flex;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
 }
