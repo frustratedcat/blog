@@ -41,7 +41,6 @@ header ul {
 header li {
   text-align: center;
   margin: 10px;
-  background-color: #2847ae;
 }
 
 header a:link,
@@ -62,9 +61,8 @@ a:active {
   font-weight: bold;
 }
 
-main {
+article {
+  max-width: 200px;
+  margin: 20px;
   display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  justify-content: center;
 }
