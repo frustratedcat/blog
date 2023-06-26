@@ -9,13 +9,13 @@ body {
   flex-direction: column;
   margin: 0 auto;
   font-family: sans-serif;
-  background: linear-gradient(to left top, #1c7ed6, #a5d8ff);
+  background: linear-gradient(to left top, #1c7ed6, #e9ecef);
 }
 
 header {
   text-align: center;
   padding: 12px;
-  /* background-image: url("./images/milky-way.jpg"); */
+  background-image: url("./images/sci-fi-city.jpg");
 }
 
 .main-h1 {
@@ -37,7 +37,26 @@ header {
   margin: 10px auto;
   padding: 10px;
   max-width: 1300px;
-  background-color: yellow;
+}
+
+a:link {
+  color: #e7f5ff;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #e7f5ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1864ab;
+}
+
+a:active {
+  background-color: #e7f5ff;
 }
 
 main {
@@ -48,7 +67,6 @@ main {
   padding: 24px 0;
   margin: 0 auto;
   max-width: 1300px;
-  background-color: orange;
 }
 
 .main-section {
@@ -60,6 +78,26 @@ main {
   margin: 24px 24px;
   width: 400px;
   height: 250px;
+}
+
+.main-articles {
+  background-image: url("./images/glasses-book.jpg");
+  background-position: center;
+}
+
+.main-tech {
+  background-image: url("./images/matrix-image.jpg");
+  background-position: center;
+}
+
+.main-fiction {
+  background-image: url("./images/milky-way-ocean.jpg");
+  background-position: center;
+}
+
+.main-games {
+  background-image: url("./images/future.jpg");
+  background-position: center;
 }
 
 .footer-div {
