@@ -7,16 +7,16 @@
 body {
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: 0 auto;
+  /* max-width: 1300px; */
   font-family: sans-serif;
-  max-width: 1000px;
-  background-color: gray;
+  background: linear-gradient(to left top, #1c7ed6, #a5d8ff);
 }
 
 header {
   text-align: center;
   padding: 12px;
-  background-image: url("./images/milky-way.jpg");
+  /* background-image: url("./images/milky-way.jpg"); */
 }
 
 .main-h1 {
@@ -37,6 +37,7 @@ header {
   flex-wrap: wrap;
   margin: 10px auto;
   padding: 10px;
+  max-width: 1300px;
   background-color: yellow;
 }
 
@@ -45,7 +46,9 @@ main {
   justify-content: space-around;
   flex-wrap: wrap;
   flex: 0 1 auto;
-  padding: 10px 0;
+  padding: 24px 0;
+  margin: 0 auto;
+  max-width: 1300px;
   background-color: orange;
 }
 
@@ -61,17 +64,38 @@ main {
 }
 
 footer {
-  text-align: center;
-  padding: 12px 12px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  padding: 12px;
+  margin: 0 auto;
+  max-width: 1300px;
   background-color: aqua;
+}
+
+.footer-title {
+  display: flex;
+  padding: 24px;
+  background-color: red;
 }
 
 .footer-nav {
   display: flex;
   list-style: none;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex: 1 0 0;
   flex-wrap: wrap;
-  margin: 12px auto;
+  margin: 10px auto;
   padding: 10px;
+  max-width: 1300px;
   background-color: yellow;
+}
+
+.footer-li {
+  padding: 0 12px;
+}
+
+.footer-copy {
+  padding: 24px;
+  background-color: red;
 }
