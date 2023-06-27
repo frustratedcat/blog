@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  font-family: sans-serif;
+  font-family: "Kanit", sans-serif;
   background: linear-gradient(to left top, #1c7ed6, #e9ecef);
 }
 
@@ -19,7 +19,10 @@ header {
 }
 
 .main-h1 {
-  color: white;
+  color: #e9ecef;
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: 3px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,8 +44,7 @@ header {
 
 a:link {
   color: #e7f5ff;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 24px;
   text-decoration: none;
 }
 
@@ -53,6 +55,7 @@ a:visited {
 
 a:hover {
   color: #1864ab;
+  font-weight: 700;
 }
 
 a:active {
@@ -70,7 +73,6 @@ main {
 }
 
 .main-section {
-  background-color: purple;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,6 +80,9 @@ main {
   margin: 24px 24px;
   width: 400px;
   height: 250px;
+  border: 1px solid #212529;
+  border-radius: 2%;
+  box-shadow: 5px 5px 5px rgba(33, 37, 41, 0.4);
 }
 
 .main-articles {
@@ -104,6 +109,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #212529;
 }
 
 footer {
@@ -118,13 +124,13 @@ footer {
   grid-template-rows: repeat(2, 1fr);
   column-gap: 10px;
   row-gap: 10px;
-  background-color: aqua;
 }
 
 .footer-title {
   grid-column: 1 / -1;
   grid-row: 1 / 1;
-  background-color: red;
+  font-size: 24px;
+  color: #e7f5ff;
 }
 
 .footer-nav {
@@ -136,59 +142,51 @@ footer {
   grid-template-rows: repeat(2, 1fr);
   column-gap: 10px;
   row-gap: 10px;
-  background-color: yellow;
 }
 
 .footer-li-1 {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  background-color: orange;
 }
 
 .footer-li-2 {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
-  background-color: orange;
 }
 
 .footer-li-3 {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
-  background-color: orange;
 }
 
 .footer-li-4 {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
-  background-color: orange;
 }
 
 .footer-li-5 {
   grid-column: 4 / 5;
   grid-row: 1 / 2;
-  background-color: orange;
 }
 
 .footer-li-6 {
   grid-column: 4 / 5;
   grid-row: 2 / 3;
-  background-color: orange;
 }
 
 .footer-li-7 {
   grid-column: 5 / 6;
   grid-row: 1 / 2;
-  background-color: orange;
 }
 
 .footer-li-8 {
   grid-column: 5 / 6;
   grid-row: 2 / 3;
-  background-color: orange;
 }
 
 .footer-copy {
   grid-column: 3 / 3;
   grid-row: 2 / -1;
-  background-color: red;
+  font-size: 18px;
+  color: #e7f5ff;
 }
