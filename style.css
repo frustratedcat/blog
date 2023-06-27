@@ -85,6 +85,26 @@ main {
   box-shadow: 5px 5px 5px rgba(33, 37, 41, 0.4);
 }
 
+.main-section a:link {
+  color: #e7f5ff;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+.main-section a:visited {
+  color: #e7f5ff;
+  text-decoration: none;
+}
+
+.main-section a:hover {
+  color: #1864ab;
+  font-weight: 700;
+}
+
+.main-section a:active {
+  background-color: #e7f5ff;
+}
+
 .main-articles {
   background-image: url("./images/glasses-book.jpg");
   background-position: center;
@@ -129,7 +149,7 @@ footer {
 .footer-title {
   grid-column: 1 / -1;
   grid-row: 1 / 1;
-  font-size: 24px;
+  font-size: 18px;
   color: #e7f5ff;
 }
 
@@ -142,6 +162,26 @@ footer {
   grid-template-rows: repeat(2, 1fr);
   column-gap: 10px;
   row-gap: 10px;
+}
+
+.footer-nav a:link {
+  color: #e7f5ff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer-nav a:visited {
+  color: #e7f5ff;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: #1864ab;
+  font-weight: 700;
+}
+
+.footer-nav a:active {
+  background-color: #e7f5ff;
 }
 
 .footer-li-1 {
