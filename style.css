@@ -108,21 +108,36 @@ main {
 .main-articles {
   background-image: url("./images/glasses-book.jpg");
   background-position: center;
+  background-size: 400px;
 }
 
 .main-tech {
   background-image: url("./images/matrix-image.jpg");
   background-position: center;
+  background-size: 400px;
 }
 
 .main-fiction {
   background-image: url("./images/milky-way-ocean.jpg");
   background-position: center;
+  background-size: 400px;
 }
 
 .main-games {
   background-image: url("./images/future.jpg");
   background-position: center;
+  background-size: 400px;
+}
+
+.main-books {
+  background-image: url("./images/bookshelf.jpg");
+  background-position: center;
+}
+
+.main-connect {
+  background-image: url("./images/instagram-logo.jpg");
+  background-position: center;
+  background-size: 400px;
 }
 
 .footer-div {
