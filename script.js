@@ -11,9 +11,9 @@ function header() {
           }">Frustrated Cat</a></li>
           <li><a href="${
             document.title === "Frustrated Cat"
-              ? "./pages/stories/stories.html"
-              : "../../pages/stories/stories.html"
-          }">Stories</a></li>
+              ? "./pages/fiction/fiction.html"
+              : "../../pages/ficiton/fiction.html"
+          }">Fiction</a></li>
           <li><a href="${
             document.title === "Frustrated Cat"
               ? "./pages/articles/articles.html"
