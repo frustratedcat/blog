@@ -9,6 +9,9 @@ function header() {
           <li><a href="">Articles</a></li>
           <li><a href="">Photography</a></li>
           <li><a href="">Reading List</a></li>
+          <li><button><a href=""><span>Instagram</span></a></button></li>
+          <li><button><a href=""><span>Github</span></a></button></li>
+          <li><button>dark/light</button></li>
         </ul>
       </nav>
     </header>
