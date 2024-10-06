@@ -2,15 +2,35 @@ function header() {
   const headerContainer = document.querySelector(".header-container");
   let html = `
     <header>
-      <h1><a href="./index.html">Frustrated Cat</a></h1>
+      <h1><a href="${
+        document.title === "Frustrated Cat"
+          ? "./index.html"
+          : "../../index.html"
+      }">Frustrated Cat</a></h1>
       <nav>
         <ul>
-          <li><a href="">Stories</a></li>
-          <li><a href="">Articles</a></li>
-          <li><a href="">Photography</a></li>
-          <li><a href="">Reading List</a></li>
-          <li><button><a href=""><span>Instagram</span></a></button></li>
-          <li><button><a href=""><span>Github</span></a></button></li>
+          <li><a href="${
+            document.title === "Frustrated Cat"
+              ? "./pages/stories/stories.html"
+              : "../../pages/stories/stories.html"
+          }">Stories</a></li>
+          <li><a href="${
+            document.title === "Frustrated Cat"
+              ? "./pages/articles/articles.html"
+              : "../../pages/articles/articles.html"
+          }">Articles</a></li>
+          <li><a href="${
+            document.title === "Frustrated Cat"
+              ? "./pages/photography/photography.html"
+              : "../../pages/photography/photography.html"
+          }">Photography</a></li>
+          <li><a href="${
+            document.title === "Frustrated Cat"
+              ? "./pages/reading-list/reading-list.html"
+              : "../../pages/reading-list/reading-list.html"
+          }">Reading List</a></li>
+          <li><button><a href="https://www.instagram.com/jaredreadsandruns"><span>Instagram</span></a></button></li>
+          <li><button><a href="https://www.github.com/frustratedcat"><span>Github</span></a></button></li>
           <li><button>dark/light</button></li>
         </ul>
       </nav>
