@@ -12,7 +12,7 @@ function header() {
           <li><a href="${
             document.title === "Frustrated Cat"
               ? "./pages/fiction/fiction.html"
-              : "../../pages/ficiton/fiction.html"
+              : "../../pages/fiction/fiction.html"
           }">Fiction</a></li>
           <li><a href="${
             document.title === "Frustrated Cat"
@@ -29,8 +29,8 @@ function header() {
               ? "./pages/reading-list/reading-list.html"
               : "../../pages/reading-list/reading-list.html"
           }">Reading List</a></li>
-          <li><button><a href="https://www.instagram.com/jaredreadsandruns"><span>Instagram</span></a></button></li>
-          <li><button><a href="https://www.github.com/frustratedcat"><span>Github</span></a></button></li>
+          <li><button><a href="https://www.instagram.com/jaredreadsandruns" target="blank"><span>Instagram</span></a></button></li>
+          <li><button><a href="https://www.github.com/frustratedcat" target="blank"><span>Github</span></a></button></li>
           <li><button>dark/light</button></li>
         </ul>
       </nav>
