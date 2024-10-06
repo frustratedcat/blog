@@ -2,11 +2,11 @@ function header() {
   const headerContainer = document.querySelector(".header-container");
   let html = `
     <header>
-      <h1><a href="${
+      <a href="${
         document.title === "Frustrated Cat"
           ? "./index.html"
           : "../../index.html"
-      }">Frustrated Cat</a></h1>
+      }">Frustrated Cat</a>
       <nav>
         <ul>
           <li><a href="${
