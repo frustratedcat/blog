@@ -46,7 +46,7 @@ header {
 }
 
 .li-gap {
-  margin-left: 15px;
+  margin-left: 30px;
 }
 
 a {
@@ -131,12 +131,16 @@ ul {
   }
 }
 
-@media (max-width: 675px) {
+@media (max-width: 715px) {
   .nav-to-home {
     margin: 0;
     margin-bottom: 20px;
   }
   .navigation {
     flex-direction: column;
+  }
+  .li-gap {
+    margin-left: 0;
+    margin-bottom: 10px;
   }
 }
