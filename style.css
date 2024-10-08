@@ -76,6 +76,18 @@ ul {
   margin-bottom: 30px;
 }
 
+.story-header {
+  margin-bottom: 0;
+}
+
+.story-heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
 .stories-container {
   width: 100%;
   display: flex;
