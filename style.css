@@ -108,6 +108,22 @@ ul {
   opacity: 0.7;
 }
 
+.reading-list-width {
+  width: 100%;
+}
+
+.reading-list-year-headers {
+  margin: 30px 0 10px 0;
+}
+
+.year-list {
+  margin-left: 30px;
+}
+
+.year-list a {
+  line-height: 2;
+}
+
 @media (max-width: 800px) {
   .home-img-description {
     flex-direction: column;
