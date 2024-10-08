@@ -22,6 +22,10 @@ body {
 
 main {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-container {
@@ -31,6 +35,10 @@ main {
 header {
   width: 100%;
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navigation {
