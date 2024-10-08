@@ -17,28 +17,32 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
 
 main {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
+  align-items: center;
 }
 
 .header-container {
-  width: 100%;
+  width: calc(100% - 60px);
 }
 
 header {
   width: 100%;
+  margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
   flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .navigation {
@@ -69,6 +73,7 @@ ul {
 .home-img-description {
   display: flex;
   align-items: center;
+  width: calc(100% - 60px);
 }
 
 .home-description {
@@ -76,16 +81,9 @@ ul {
   line-height: 2.5;
 }
 
-.fiction-article-container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 30px;
-}
-
 .story-header {
   margin-bottom: 0;
+  width: calc(100% - 60px);
 }
 
 .story-heading-container {
@@ -126,10 +124,6 @@ ul {
 
 .story-cover-image:hover {
   opacity: 0.7;
-}
-
-.reading-list-width {
-  width: 100%;
 }
 
 .reading-list-year-headers {

@@ -36,17 +36,4 @@ function header() {
   headerContainer.insertAdjacentHTML("beforeend", html);
 }
 
-function footer() {
-  const footerContainer = document.querySelector(".footer-container");
-  const date = new Date();
-  let year = date.getFullYear();
-  let html = `
-    <footer>
-      &copy; Frustrated Cat ${year}
-    </footer>
-    `;
-  footerContainer.insertAdjacentHTML("beforeend", html);
-}
-
 header();
-footer();
