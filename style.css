@@ -138,6 +138,18 @@ ul {
   line-height: 2;
 }
 
+@media (max-width: 900px) {
+  .fiction-article-description {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .reading-list-width {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
 @media (max-width: 800px) {
   .home-img-description {
     flex-direction: column;
