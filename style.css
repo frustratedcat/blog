@@ -68,7 +68,7 @@ ul {
   line-height: 2.5;
 }
 
-.fiction-container {
+.fiction-article-container {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -83,7 +83,7 @@ ul {
   justify-content: space-around;
 }
 
-.fiction-description {
+.fiction-article-description {
   max-width: 800px;
   line-height: 2.5;
   margin-top: 30px;
