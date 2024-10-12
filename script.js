@@ -29,6 +29,11 @@ function header() {
               ? "./pages/reading-list/reading-list.html"
               : "../../pages/reading-list/reading-list.html"
           }">Reading List</a></li>
+          <li class="li-gap"><a href="${
+            document.title === "Frustrated Cat"
+              ? "./pages/library/library.html"
+              : "../../pages/library/library.html"
+          }">Library</a></li>
         </ul>
       </nav>
     </header>
