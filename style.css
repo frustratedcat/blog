@@ -144,6 +144,10 @@ ul {
   line-height: 2;
 }
 
+.year-list-remove-margin {
+  margin-left: 0;
+}
+
 .download-file {
   margin-top: 30px;
 }
