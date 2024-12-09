@@ -100,7 +100,7 @@ ul {
   text-align: center;
 }
 
-.stories-container {
+.stories-article-container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -151,7 +151,6 @@ ul {
 .download-file {
   margin-top: 30px;
 }
-
 
 .article-body-container {
     display: flex;
