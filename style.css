@@ -170,6 +170,10 @@ ul {
     color: #d21e98;
 }
 
+.article-mahatma-gandhi {
+    color: #fc8d04;
+}
+
 @media (max-width: 900px) {
   .fiction-article-description {
     margin-left: 30px;
